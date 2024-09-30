@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA Solana Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+            color: #666;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Navigation Bar Styling */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 20px;
+            z-index: 9999;
+        }
+
+        .navbar a {
+            color: white;
+            text-align: center;
+            padding: 12px 10px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Header padding to prevent it from being hidden under the navbar */
+        header {
+            padding-top: 60px;
+        }
+
+        /* Media Section Styling */
+        .media-section {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Grid Layout Styling for GIFs */
+        .gif-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            justify-items: center;
+        }
+
+        .gif-grid img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        /* Caption Styling */
+        .gif-caption {
+            text-align: center;
+            font-style: italic;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        /* Responsive Design for smaller screens */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .navbar a {
+                padding: 10px;
+                font-size: 14px;
+            }
+
+            .gif-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .gif-grid img {
+                max-width: 100%;
+            }
+
+            .dex-links {
+                flex-direction: column;
+            }
+
+            .dex-links img {
+                max-width: 120px;
+            }
+        }
+
+        /* Exchanges Section */
+        .exchanges {
+            background-color: #f8f8f8;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .exchanges h2 {
+            color: #333;
+        }
+
+        .dex-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .dex-links a {
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .dex-links img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .dex-links p {
+            font-weight: bold;
+        }
+
+        /* Disclaimer Styling */
+        .disclaimer p {
+            font-size: 14px;
+            color: #999;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="https://x.com/GTA6SolanaCoin?t=S-_TRFVTdtK9CIRvMKF-gw&s=09" target="_blank">Twitter</a>
+        <a href="https://t.me/+rA6TeNLfRjBmODc8" target="_blank">Telegram</a>
+        <a href="mailto:modsoszeus@gmail.com" target="_blank">Gmail</a>
+    </div>
+
+    <header>
+        <h1>Welcome to the GTA Six Meme on Solana</h1>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <p>Fan Made token on the Solana Chain</p>
+        </div>
+    </section>
+
+    <!-- GIF Section (Grid Layout) -->
+    <section class="media-section">
+        <div class="container">
+            <h2>Stay updated and engage with our community</h2>
+            <div class="gif-grid">
+                <!-- Row 1 -->
+                <div>
+                    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTdmdDRoZzdhMnhiMTE2YW03ZGdpYzBnMWxiNTg5M3VtamFyYnVmNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ECoYUjfGppfKiwZKXE/giphy.gif" alt="GTA Solana GIF 1">
+                    <p class="gif-caption">"Starting the journey with Solana - fast and secure!"</p>
+                </div>
+                <div>
+                    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTAxeHRvNWhlNzJ5eXdheW04aXg4Y3MwMWlsYnB2ZjF6NjB2cWZ0YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PlgCdcMnWPVhVtGv3F/giphy.gif" alt="GTA Solana GIF 2">
+                    <p class="gif-caption">"Join the hype before GTA Six releases!"</p>
+                </div>
+                <!-- Row 2 -->
+                <div>
+                    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnB6b2kzdmFuZWhzZXg5aGd1YWZ1aXBkb29wZnQ2Y2c0eHF5NWJ1ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hOEaAiCopBVI8DzENI/giphy.gif" alt="GTA Solana GIF 3">
+                    <p class="gif-caption">"Powered by Solana – lower fees, faster transactions."</p>
+                </div>
+                <div>
+                    <img src="image2.png" alt="GTA Solana Image 4">
+                    <p class="gif-caption">"Merging gaming, blockchain, and community growth!"</p>
+                </div>
+                <!-- Row 3 -->
+                <div>
+                    <img src="image1.jpg" alt="GTA Solana GIF 5">
+                    <p class="gif-caption">"Taking the GTA hype to new heights with blockchain."</p>
+                </div>
+                <div>
+                    <img src="https://media.giphy.com/media/h6c7hGShPQwMs3UBLY/giphy.gif?cid=ecf05e47uh7e2cg6alu9z7r27amafdani2lsttgiruoacmvv&ep=v1_gifs_related&rid=giphy.gif&ct=g" alt="GTA Solana GIF 6">
+                    <p class="gif-caption">"Join us in our journey to the moon with Solana."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exchanges Section -->
+    <section class="exchanges">
+        <div class="container">
+            <h2>Listed On</h2>
+            <div class="dex-links">
+                <a href="https://www.dextools.io/app/solana/pair-explorer/GVHDf3Y3jpqDg8FFidCyk9mcwuynDWnkAh5LWZBUnEGS?t=1727693271106" target="_blank">
+                    <img src="dextools.jpg" alt="DEXTools">
+                    <p>View on DEXTools</p>
+                </a>
+                <a href="https://dexscreener.com/solana/DosKVpFhk7D1uBqddDTYNLCVdqNFHtmw1PbvVyNQqPf2" target="_blank">
+                    <img src="dex.png" alt="DexScreener">
+                    <p>View on DexScreener</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer Section -->
+    <section class="disclaimer">
+        <div class="container">
+            <p style="text-align: center; font-size: 14px; color: #999; padding: 20px 0;">
+                Disclaimer: Please be advised that this GTA 6 fan-made token is a memecoin created for entertainment purposes and is not affiliated with or endorsed in any way by Rockstar Games.
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
